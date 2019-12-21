@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "AllerBd";
+    src: url("../fonts/Aller_Bd.ttf");
+}
+
+@font-face {
+    font-family: "AllerRg";
+    src: url("../fonts/Aller_Rg.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #161110;
+    font-family: "AllerRg";
+}
+
+/* utils */
+.center {
+    margin: 0 auto;
+}
+.txtcenter {
+    text-align: center;
+}
+/* utils */
+
+/* menu */
+#menu {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+#menu a {
+    color: #FFAC09;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+#menu a:hover {
+    padding: 10px;
+    border: 2px solid #FFAC09;
+    transition: 0.3s;
+}
+/* menu */
+
+/* logo */
+.logo {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+/* logo */
+
+/* titre */
+.title {
+    color: #FFAC09;
+    font-family: "AllerRg";
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #FFAC09;
+    font-size: 1.2em;
+}
+/* titre */
+
+/* working */
+.workingFlex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.workingFlex div {
+    width: 20%;
+    padding: 0 10px 0 10px;
+    font-family: "AllerRg";
+    color: #fff;
+    text-align: center;
+}
+.workingFlex div img {
+    width: auto;
+    height: 50px;
+}
+.workingFlex div .titleWorking {
+    color: #FFAC09;
+    font-family: "AllerRg";
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.workingFlex div .separator {
+    width: 10%;
+    height: 2px;
+    background: #FFAC09;
+    margin: 10px auto 10px auto;
+}
+/* working */
+
+/* section derniers projets */
+.sectionLastProjects {
+    
+}
+/* section derniers projets */
