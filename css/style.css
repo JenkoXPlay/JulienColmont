@@ -103,6 +103,41 @@ body {
 
 /* section derniers projets */
 .sectionLastProjects {
-    
+    width: 100%;
+    padding-top: 100px;
+}
+.sectionLastProjects .galerie {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sectionLastProjects .galerie .projet {
+    width: 500px;
+    height: 400px;
+    margin: 0 50px 50px 50px;
+}
+.sectionLastProjects .galerie .projet .illustration {
+    width: 100%;
+    height: 100%;
+}
+.sectionLastProjects .galerie .projet .descriptionProjet {
+    display: none;
+    width: 500px;
+    height: 400px;
+    background: #FFAC09;
+    color: #161110;
+    line-height: 400px;
+}
+.sectionLastProjects .galerie .projet .descriptionProjet span {
+    font-weight: bold;
+    font-size: 2em;
+}
+.sectionLastProjects .galerie .projet:hover .descriptionProjet  {
+    display: block;
+}
+.sectionLastProjects .galerie .projet:hover img {
+    display: none;
 }
 /* section derniers projets */

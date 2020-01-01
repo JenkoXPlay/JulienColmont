@@ -11,6 +11,8 @@ foreach ($bannav as $banni) {
 }
 ?>
 
+<?php include('connect.php'); ?>
+
 <html>
     <head>
         <title>Julien Colmont - Graphiste</title>

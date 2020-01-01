@@ -37,6 +37,28 @@
         </div>
     </div>
 
+    <div class="sectionLastProjects txtcenter">
+        <span class="title">Mes derniers projets</span>
+
+        <br /><br /><br /><br />
+
+        <div class="galerie">
+            <?php
+                $req_galerie = $bdd->query("SELECT * FROM galerie ORDER BY id DESC LIMIT 6");
+                while ($data_galerie = $req_galerie->fetch()) {
+                    ?>
+                        <div class="projet">
+                            <img src="<?php echo $data_galerie['lien_img']; ?>" class="illustration" />
+                            <div class="descriptionProjet">
+                                <span><?php echo $data_galerie['titre']; ?></span>
+                            </div>
+                        </div>
+                    <?php
+                }
+            ?>
+        </div>
+    </div>
+
     <div class="sectionLastProjects">
 
 
