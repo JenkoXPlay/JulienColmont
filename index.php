@@ -57,6 +57,8 @@
                 }
             ?>
         </div>
+
+        <a href="/portfolio">Voir tous mes projets</a>
     </div>
 
     <div class="sectionLastProjects">

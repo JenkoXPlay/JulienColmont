@@ -22,6 +22,18 @@ body {
 .txtcenter {
     text-align: center;
 }
+
+a {
+    text-decoration: underline;
+    color: #FFAC09;
+    font-weight: bold;
+    transition: 0.3s;
+}
+a:hover {
+    color: #fff;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
 /* utils */
 
 /* menu */
@@ -141,3 +153,71 @@ body {
     display: none;
 }
 /* section derniers projets */
+
+/* footer */
+.network {
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: #FFAC09;
+    text-align: center;
+}
+
+.network span {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.network .network_list {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.network .network_list a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+.network .network_list a:hover {
+    font-size: 1em;
+}
+
+.network .network_list .contactLink {
+    text-transform: uppercase;
+    background: #FFAC09;
+    color: #161110;
+    padding: 5px 10px;
+}
+.network .network_list .contactLink:hover {
+    background: #fff;
+    color: #161110;
+    transition: 0.3s;
+}
+
+.info_compagny {
+    color: #fff;
+    font-size: 0.8em;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.copy {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.6em;
+    margin-bottom: 50px;
+}
+/* footer */
