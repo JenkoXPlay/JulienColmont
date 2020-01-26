@@ -53,6 +53,8 @@ $router = new Router();
 $router->setRoutes('/DevStorm/', 'index.php');
 $router->setRoutes('/home', 'index.php');
 $router->setRoutes('/portfolio', 'portfolio.php');
+$router->setRoutes('/contact', 'contact.php');
+$router->setRoutes('/about', 'about.php');
 //$router->setRoutes('/profil/:pseudo', 'profile_user.php');
 $router->setOtherwise('page', 'erreur.php');
 
