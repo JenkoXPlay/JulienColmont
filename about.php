@@ -54,6 +54,11 @@
                 </span>
             </div>
         </div>
+
+        <div class="width_100 margin_top_100">
+            <a href="./files/Julien_Colmont_CV.pdf" download class="btnClickable">C.V</a>
+            <a href="/portfolio" class="btnClickable">Portfolio</a>
+        </div>
     </div>
 
 <?php include('./includes/footer.php') ?>
