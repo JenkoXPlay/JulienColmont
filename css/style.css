@@ -318,6 +318,75 @@ a:hover {
 }
 /* section contact */
 
+/* section portfolio */
+.projets {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.projets .projet {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.projets .projet .nom {
+    color: #FFAC09;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.projets .projet .illustration {
+    width: 80%;
+    height: auto;
+    border: 30px solid rgb(214, 214, 214);
+    box-shadow: 0 0 15px #000000;
+    border-radius: 4px;
+}
+.projets .projet .details_projet {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.projets .projet .details_projet div {
+    padding: 0 20px;
+}
+.projets .projet .details_projet .description {
+    width: 50%;
+    text-align: left;
+}
+.projets .projet .details_projet .description span {
+    color: #FFAC09;
+    font-weight: 500;
+}
+.projets .projet .details_projet .description p {
+    color: #fff;
+}
+.projets .projet .details_projet .details {
+    width: 25%;
+    text-align: left;
+}
+.projets .projet .details_projet .details span {
+    color: #FFAC09;
+    font-weight: 500;
+}
+.projets .projet .details_projet .details p {
+    color: #fff;
+}
+.projets .projet .details_projet .categorie {
+    width: 25%;
+    text-align: left;
+}
+.projets .projet .details_projet .categorie span {
+    color: #FFAC09;
+    font-weight: 500;
+}
+.projets .projet .details_projet .categorie p {
+    color: #fff;
+}
+/* section portfolio */
+
 /* footer */
 .network {
     margin: 0 auto;
