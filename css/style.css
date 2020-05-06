@@ -222,9 +222,18 @@ a:hover {
     color: #161110;
     line-height: 400px;
 }
-.sectionLastProjects .galerie .projet .descriptionProjet span {
+.sectionLastProjects .galerie .projet .descriptionProjet a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #161110;
+    font-size: 2em;
+    transition: 0.3s;
+}
+.sectionLastProjects .galerie .projet .descriptionProjet a:hover {
     font-weight: bold;
     font-size: 2em;
+    color: #fff;
+    transition: 0.3s;
 }
 .sectionLastProjects .galerie .projet:hover .descriptionProjet  {
     display: block;
@@ -385,11 +394,29 @@ a:hover {
 .projets .projet .details_projet .categorie p {
     color: #fff;
 }
+
+.allImgProjet {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.allImgProjet .illu {
+    width: 500px;
+    height: 400px;
+    margin: 0 50px 50px 50px;
+}
+.allImgProjet .illu img {
+    width: 100%;
+    height: 100%;
+}
 /* section portfolio */
 
 /* footer */
 .network {
     margin: 0 auto;
+    margin-top: 100px;
     width: 30%;
     padding: 20px;
     border-top: 0;

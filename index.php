@@ -44,13 +44,13 @@
 
         <div class="galerie">
             <?php
-                $req_galerie = $bdd->query("SELECT * FROM galerie ORDER BY id DESC LIMIT 6");
+                $req_galerie = $bdd->query("SELECT * FROM projets ORDER BY id DESC LIMIT 6");
                 while ($data_galerie = $req_galerie->fetch()) {
                     ?>
                         <div class="projet">
-                            <img src="<?php echo $data_galerie['lien_img']; ?>" class="illustration" />
+                            <img src="/projets/<?php echo $data_galerie['illustration']; ?>" class="illustration" />
                             <div class="descriptionProjet">
-                                <span><?php echo $data_galerie['titre']; ?></span>
+                                <span><?php echo $data_galerie['nom']; ?></span>
                             </div>
                         </div>
                     <?php

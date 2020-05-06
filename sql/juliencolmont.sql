@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost:3306
--- Généré le :  Mer 22 Avril 2020 à 14:01
+-- Généré le :  Mer 06 Mai 2020 à 22:29
 -- Version du serveur :  5.5.49-log
 -- Version de PHP :  7.0.9
 
@@ -23,69 +23,67 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `galerie`
+-- Structure de la table `projets`
 --
 
-CREATE TABLE IF NOT EXISTS `galerie` (
-  `id` int(11) NOT NULL,
-  `titre` varchar(255) NOT NULL,
-  `lien_img` text NOT NULL,
-  `date_ajout` datetime NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
-
---
--- Contenu de la table `galerie`
---
-
-INSERT INTO `galerie` (`id`, `titre`, `lien_img`, `date_ajout`) VALUES
-(1, 'Test 1', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '0000-00-00 00:00:00'),
-(2, 'Test 2', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '2020-01-08 00:00:00'),
-(3, 'Test 3', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '2020-01-08 00:00:00'),
-(4, 'Test 4', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '2020-01-15 00:00:00'),
-(5, 'Test 5', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '2020-01-22 00:00:00'),
-(6, 'Test 6', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '2020-01-23 00:00:00'),
-(7, 'Test 7', 'https://i.ytimg.com/vi/jzHGHmgcOw8/maxresdefault.jpg', '2020-01-09 00:00:00');
-
--- --------------------------------------------------------
-
---
--- Structure de la table `projet`
---
-
-CREATE TABLE IF NOT EXISTS `projet` (
+CREATE TABLE IF NOT EXISTS `projets` (
   `id` int(11) NOT NULL,
   `nom` varchar(255) NOT NULL,
   `illustration` text NOT NULL,
   `description` text NOT NULL,
-  `annee_realisation` int(4) NOT NULL,
+  `annee_creation` int(11) NOT NULL,
   `taille` varchar(255) NOT NULL,
-  `page` int(11) NOT NULL,
+  `nbr_pages` int(11) NOT NULL,
   `edition` varchar(255) NOT NULL,
   `categorie` varchar(255) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 --
--- Contenu de la table `projet`
+-- Contenu de la table `projets`
 --
 
-INSERT INTO `projet` (`id`, `nom`, `illustration`, `description`, `annee_realisation`, `taille`, `page`, `edition`, `categorie`) VALUES
-(1, 'CCZB', 'CCZB_1.jpg', 'Conception d''une identité graphique pour CCZB, une entreprise de toiture.\nlogo - flyer - carte de visite - panneaux - covering cars.\n', 2013, '0', 0, '0', 'Identité graphique'),
-(2, 'Les métiers d''antan', 'antan_1.jpg', 'Création d’une édition sur le sujet du travail.', 2016, '148 X 210 mm', 27, '0', 'Édition | Illustartions');
+INSERT INTO `projets` (`id`, `nom`, `illustration`, `description`, `annee_creation`, `taille`, `nbr_pages`, `edition`, `categorie`) VALUES
+(1, 'CCZB', 'CCZB_1.jpg', 'Conception d''une identité graphique pour CCZB,\r\nune entreprise de toiture.\r\nlogo - flyer - carte de visite - panneaux - covering cars', 2013, '', 0, 'Identité graphique', '0'),
+(2, 'Les métiers d''antan', 'antan_1.jpg', 'Création d’une édition sur le sujet du travail.\r\nles métiers d’antan.', 2016, '148 X 210 mm', 27, '0', 'Édition | Illustrations');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `projets_all_img`
+--
+
+CREATE TABLE IF NOT EXISTS `projets_all_img` (
+  `id` int(11) NOT NULL,
+  `illustration` text NOT NULL,
+  `id_projet` int(11) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `projets_all_img`
+--
+
+INSERT INTO `projets_all_img` (`id`, `illustration`, `id_projet`) VALUES
+(1, 'CCZB_02.jpg', 1),
+(2, 'antan_02.jpg', 2),
+(3, 'CCZB_1.jpg', 1),
+(4, 'CCZB_03.jpg', 1),
+(5, 'antan_1.jpg', 2),
+(6, 'antan_03.jpg', 2);
 
 --
 -- Index pour les tables exportées
 --
 
 --
--- Index pour la table `galerie`
+-- Index pour la table `projets`
 --
-ALTER TABLE `galerie`
+ALTER TABLE `projets`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `projet`
+-- Index pour la table `projets_all_img`
 --
-ALTER TABLE `projet`
+ALTER TABLE `projets_all_img`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -93,15 +91,15 @@ ALTER TABLE `projet`
 --
 
 --
--- AUTO_INCREMENT pour la table `galerie`
+-- AUTO_INCREMENT pour la table `projets`
 --
-ALTER TABLE `galerie`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
---
--- AUTO_INCREMENT pour la table `projet`
---
-ALTER TABLE `projet`
+ALTER TABLE `projets`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT pour la table `projets_all_img`
+--
+ALTER TABLE `projets_all_img`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
