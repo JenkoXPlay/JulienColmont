@@ -21,4 +21,29 @@ foreach ($bannav as $banni) {
     </head>
     <body>
         
+        <div id="scrollTop">
+            <div class="arrow-up"></div>
+        </div>
+
+        <script src="./js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(window).on('scroll', function () {
+                var elmt   = $("#scrollTop");
+                elmt.hide();
+                var scroll = $(window).scrollTop();
+                
+                    $(elmt).each(function() {
+                        if ( scroll > 100 ) {
+                            elmt.show();
+                        };
+                    });
+                });
+            });
+
+            $("#scrollTop").on('click', function () {
+                $('html,body').animate({scrollTop: 0}, 'slow');
+            });
+        </script>
+
         <?php include('includes/menu.php') ?>

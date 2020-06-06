@@ -7,7 +7,7 @@
 
         <div class="galerie">
             <?php
-                $req_galerie = $bdd->query("SELECT * FROM projets ORDER BY id");
+                $req_galerie = $bdd->query("SELECT * FROM projets ORDER BY id DESC");
                 while ($data_galerie = $req_galerie->fetch()) {
                     ?>
                         <div class="projet">
