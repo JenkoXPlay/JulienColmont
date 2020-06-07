@@ -13,7 +13,11 @@
                         <div class="projet">
                             <img src="/projets/<?php echo $data_galerie['illustration']; ?>" class="illustration" />
                             <div class="descriptionProjet">
-                                <a href="/projet/<?php echo $data_galerie['id']; ?>"><?php echo $data_galerie['nom']; ?></a>
+                                <div>
+                                    <a href="/projet/<?php echo $data_galerie['id']; ?>"><?php echo $data_galerie['nom']; ?></a>
+                                    <br><br>
+                                    <span><?php if ($data_galerie['edition'] != "0") { echo $data_galerie['edition']; } ?></span>
+                                </div>
                             </div>
                         </div>
                     <?php

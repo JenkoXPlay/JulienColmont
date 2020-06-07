@@ -38,7 +38,7 @@
                                     <span>Catégorie</span>
                                     <p>
                                         <?php if ($dataProjet['edition'] != "0") {echo "<span class='square'></span> ".$dataProjet['edition']."<br />";} ?>
-                                        <?php echo "<span class='square'></span> ".$dataProjet['categorie']; ?>
+                                        <?php if ($dataProjet['categorie'] != "0") { echo "<span class='square'></span> ".$dataProjet['categorie']; } ?>
                                     </p>
                                 </div>
                             </div>

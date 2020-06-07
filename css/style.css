@@ -220,7 +220,6 @@ a:hover {
     height: 300px;
     background: #FFAC09;
     color: #161110;
-    line-height: 300px;
 }
 .sectionLastProjects .galerie .projet .descriptionProjet a {
     text-decoration: underline;
@@ -237,6 +236,9 @@ a:hover {
 }
 .sectionLastProjects .galerie .projet:hover .descriptionProjet  {
     display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sectionLastProjects .galerie .projet:hover img {
     display: none;
