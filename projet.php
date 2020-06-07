@@ -29,16 +29,16 @@
                                 <div class="details">
                                     <span>Détails</span>
                                     <p>
-                                        <?php echo "<font color='#FFAC09'>-</font> Réalisé en ".$dataProjet['annee_creation']; ?><br />
-                                        <?php if ($dataProjet['taille'] != "0") {echo "<font color='#FFAC09'>-</font> Taille : ".$dataProjet['taille']."<br />";} ?>
-                                        <?php if ($dataProjet['nbr_pages'] != 0) {echo "<font color='#FFAC09'>-</font> ".$dataProjet['nbr_pages']." page(s)";} ?>
+                                        <?php echo "<span class='square'></span> Réalisé en ".$dataProjet['annee_creation']; ?><br />
+                                        <?php if ($dataProjet['taille'] != "0") {echo "<span class='square'></span> Taille : ".$dataProjet['taille']."<br />";} ?>
+                                        <?php if ($dataProjet['nbr_pages'] != 0) {echo "<span class='square'></span> ".$dataProjet['nbr_pages']." page(s)";} ?>
                                     </p>
                                 </div>
                                 <div class="categorie">
                                     <span>Catégorie</span>
                                     <p>
-                                        <?php if ($dataProjet['edition'] != "0") {echo "<font color='#FFAC09'>-</font> ".$dataProjet['edition']."<br />";} ?>
-                                        <?php echo "<font color='#FFAC09'>-</font> ".$dataProjet['categorie']; ?>
+                                        <?php if ($dataProjet['edition'] != "0") {echo "<span class='square'></span> ".$dataProjet['edition']."<br />";} ?>
+                                        <?php echo "<span class='square'></span> ".$dataProjet['categorie']; ?>
                                     </p>
                                 </div>
                             </div>

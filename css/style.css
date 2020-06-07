@@ -380,6 +380,13 @@ a:hover {
     color: #FFAC09;
     font-weight: 500;
 }
+.projets .projet .details_projet .details .square {
+    background: #FFAC09;
+    width: 7px;
+    height: 7px;
+    display: block;
+    display: inline-block;
+}
 .projets .projet .details_projet .details p {
     color: #fff;
 }
@@ -390,6 +397,13 @@ a:hover {
 .projets .projet .details_projet .categorie span {
     color: #FFAC09;
     font-weight: 500;
+}
+.projets .projet .details_projet .categorie .square {
+    background: #FFAC09;
+    width: 7px;
+    height: 7px;
+    display: block;
+    display: inline-block;
 }
 .projets .projet .details_projet .categorie p {
     color: #fff;
