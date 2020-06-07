@@ -53,8 +53,8 @@
                             <div class="descriptionProjet">
                                 <div>
                                     <a href="/projet/<?php echo $data_galerie['id']; ?>"><?php echo $data_galerie['nom']; ?></a>
-                                    <br><br>
-                                    <span><?php if ($data_galerie['edition'] != "0") { echo $data_galerie['edition']; } ?></span>
+                                    <br>
+                                    <span class="uppercase"><?php if ($data_galerie['edition'] != "0") { echo $data_galerie['edition']; } ?></span>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
             ?>
         </div>
 
-        <a href="/portfolio">Voir tous mes projets</a>
+        <a href="/portfolio" class="linkProject">Voir tous mes projets</a>
     </div>
 
 <?php include('./includes/footer.php') ?>

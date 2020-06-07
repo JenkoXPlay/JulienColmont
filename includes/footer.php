@@ -3,8 +3,8 @@
 
             <div class="network_list">
                 <a href="" class="contactLink">Contactez-moi</a>
-                <a href="" target="_blank"><img src="../img/fb.svg" width="30px" height="30px"></a>
-                <a href="" target="_blank"><img src="../img/insta.svg" width="30px" height="30px"></a>
+                <a href="https://www.facebook.com/juliencolmontgraphiste/" target="_blank"><img src="../img/fb.svg" width="30px" height="30px"></a>
+                <a href="https://www.instagram.com/juliencolmont/" target="_blank"><img src="../img/insta.svg" width="30px" height="30px"></a>
                 <a href="" target="_blank"><img src="../img/linkedin.svg" width="30px" height="30px"></a>
             </div>
         </div>

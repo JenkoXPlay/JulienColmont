@@ -35,6 +35,20 @@ a:hover {
     transition: 0.3s;
 }
 
+.linkProject {
+    text-decoration: none;
+    color: #FFAC09;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.linkProject:hover {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
 .jaune {
     color: #FFAC09;
 }
@@ -85,6 +99,10 @@ a:hover {
     color: #fff;
     transition: 0.3s;
     font-size: 1.2em;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 /* utils */
 
@@ -207,7 +225,7 @@ a:hover {
 }
 .sectionLastProjects .galerie .projet {
     width: 400px;
-    height: 300px;
+    height: 400px;
     margin: 0 30px 30px 30px;
 }
 .sectionLastProjects .galerie .projet .illustration {
@@ -217,20 +235,21 @@ a:hover {
 .sectionLastProjects .galerie .projet .descriptionProjet {
     display: none;
     width: 400px;
-    height: 300px;
+    height: 400px;
     background: #FFAC09;
     color: #161110;
 }
 .sectionLastProjects .galerie .projet .descriptionProjet a {
-    text-decoration: underline;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: 400;
     color: #161110;
-    font-size: 2em;
+    font-size: 1.6em;
+    text-transform: capitalize;
     transition: 0.3s;
 }
 .sectionLastProjects .galerie .projet .descriptionProjet a:hover {
-    font-weight: bold;
-    font-size: 2em;
+    font-weight: 400;
+    font-size: 1.6em;
     color: #fff;
     transition: 0.3s;
 }
@@ -419,7 +438,7 @@ a:hover {
     flex-wrap: wrap;
 }
 .allImgProjet .illu {
-    width: 500px;
+    width: 400px;
     height: 400px;
     margin: 0 50px 50px 50px;
 }
