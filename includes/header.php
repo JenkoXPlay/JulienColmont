@@ -20,9 +20,9 @@ foreach ($bannav as $banni) {
         <link rel="stylesheet" href="/css/style.css" />
     </head>
     <body>
-        
+
         <div id="scrollTop">
-            <div class="arrow-up"></div>
+            <img src="/img/fleche.svg" id="fleche" />
         </div>
 
         <script src="./js/jquery.min.js"></script>

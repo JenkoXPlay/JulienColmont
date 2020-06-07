@@ -8,7 +8,7 @@
         <div class="mailPhone">
             <div>
                 <div class="picto">
-                    <img src="./img/mail.svg" height="40px" width="auto">
+                    <img src="./img/mail.svg" height="30px" width="auto">
                 </div>
                 <div class="info">
                     <span class="jaune">Mail</span>

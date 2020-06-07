@@ -363,6 +363,12 @@ a:hover {
     color: #FFAC09;
     font-weight: 500;
     font-size: 2em;
+    margin-bottom: 10px;
+}
+.projets .projet .soustitre {
+    color: #FFAC09;
+    text-transform: uppercase;
+    font-size: 1em;
     margin-bottom: 20px;
 }
 .projets .projet .illustration {
@@ -452,7 +458,7 @@ a:hover {
 .network {
     margin: 0 auto;
     margin-top: 100px;
-    width: 30%;
+    width: 360px;
     padding: 20px;
     border-top: 0;
     border-bottom: 0;
@@ -509,7 +515,7 @@ a:hover {
 .copy {
     margin: 0 auto;
     margin-top: 30px;
-    width: 30%;
+    width: 100%;
     text-align: center;
     color: #fff;
     font-size: 0.6em;
@@ -524,16 +530,12 @@ a:hover {
     right: 0;
     bottom: 100px;
     background: #FFAC09;
-    padding: 15px;
 }
 #scrollTop:hover {
     cursor: pointer;
 }
-#scrollTop .arrow-up {
-    width: 0; 
-    height: 0; 
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 20px solid #161110;
+#scrollTop #fleche {
+    width: 45px;
+    height: 45px;
 }
 /* scroll */

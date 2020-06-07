@@ -1,5 +1,5 @@
         <div class="network">
-            <span>Vous avez un projet et cherchez un graphiste freelance ?</span>
+            <span>Vous avez un projet et cherchez<br />un graphiste freelance ?</span>
 
             <div class="network_list">
                 <a href="" class="contactLink">Contactez-moi</a>

@@ -21,6 +21,7 @@
                     <div class="projets">
                         <div class="projet">
                             <div class="nom"><?php echo $dataProjet['nom']; ?></div>
+                            <?php if ($dataProjet['categorie'] != "0") { echo "<div class='soustitre'>".$dataProjet['categorie']."</div>"; } ?>
                             <div class="details_projet">
                                 <div class="description">
                                     <span>Description</span>
