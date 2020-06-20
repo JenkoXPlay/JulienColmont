@@ -355,11 +355,12 @@ a:hover {
     margin-bottom: 100px;
 }
 .projets .projet {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 .projets .projet .nom {
+    margin-top: 100px;
     color: #FFAC09;
     font-weight: 500;
     font-size: 2em;
@@ -378,18 +379,19 @@ a:hover {
     box-shadow: 0 0 15px #000000;
     border-radius: 4px;
 }
-.projets .projet .details_projet {
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 80%;
+.projets .projet .contentProjet {
+    width: 100%;
+    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+}
+.projets .projet .details_projet {
+    width: 20%;
 }
 .projets .projet .details_projet div {
     padding: 0 20px;
 }
 .projets .projet .details_projet .description {
-    width: 50%;
     text-align: left;
 }
 .projets .projet .details_projet .description span {
@@ -400,7 +402,6 @@ a:hover {
     color: #fff;
 }
 .projets .projet .details_projet .details {
-    width: 25%;
     text-align: left;
 }
 .projets .projet .details_projet .details span {
@@ -418,7 +419,6 @@ a:hover {
     color: #fff;
 }
 .projets .projet .details_projet .categorie {
-    width: 25%;
     text-align: left;
 }
 .projets .projet .details_projet .categorie span {
@@ -436,19 +436,19 @@ a:hover {
     color: #fff;
 }
 
-.allImgProjet {
-    width: 100%;
+.projets .projet .allImgProjet {
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
-.allImgProjet .illu {
+.projets .projet .allImgProjet .illu {
     width: 400px;
     height: 400px;
     margin: 0 50px 50px 50px;
 }
-.allImgProjet .illu img {
+.projets .projet .allImgProjet .illu img {
     width: 100%;
     height: 100%;
 }

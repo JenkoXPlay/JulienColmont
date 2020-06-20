@@ -56,7 +56,7 @@
                                 if ($mail) {
                                     echo "<div class='alertSuccess width_100'>Un mail a été envoyé à Julien Colmont !</div><br />";
                                 } else {
-                                    // echo "<div class='alertError width_100'>Une erreur est survenue (email) !</div><br />";
+                                    echo "<div class='alertError width_100'>Une erreur est survenue (email) !</div><br />";
                                 }
                                 echo "<div class='alertSuccess width_100'>Message envoyé avec succès !<br />Je vous contact dans les plus brèves délais !</div>";
                             } else echo "<div class='alertError width_100'>Votre message est trop court !</div>";

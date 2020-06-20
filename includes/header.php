@@ -25,25 +25,7 @@ foreach ($bannav as $banni) {
             <img src="/img/fleche.svg" id="fleche" />
         </div>
 
-        <script src="./js/jquery.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(window).on('scroll', function () {
-                var elmt   = $("#scrollTop");
-                elmt.hide();
-                var scroll = $(window).scrollTop();
-                
-                    $(elmt).each(function() {
-                        if ( scroll > 100 ) {
-                            elmt.show();
-                        };
-                    });
-                });
-            });
-
-            $("#scrollTop").on('click', function () {
-                $('html,body').animate({scrollTop: 0}, 'slow');
-            });
-        </script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/scroll.js"></script>
 
         <?php include('includes/menu.php') ?>
