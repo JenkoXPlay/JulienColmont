@@ -1,5 +1,15 @@
 RewriteEngine On
 Options +FollowSymlinks
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^.*$ routeur.php [NC,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Définissez le package « ea-php70 » comme langage de programmation « PHP » par défaut.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php70 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
