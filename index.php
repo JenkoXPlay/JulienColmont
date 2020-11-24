@@ -5,7 +5,7 @@
     </div>
 
     <div class="txtcenter">
-        <span class="title">Ce que je fais...</span>
+        <span class="title">Mes prestations</span>
 
         <br /><br /><br /><br />
 
@@ -15,7 +15,7 @@
                 <span class="titleWorking">Créativité</span>
                 <div class="separator"></div>
                 <span>
-                    Je crée des visuels pour tous vos supports de communication : Identité visuelle, édition & print, signalétique et illustartion…
+                    Je crée des visuels pour tous vos supports de communication : Identité visuelle, édition & print, signalétique et illustration…
                 </span>
             </div>
             <div>
@@ -23,7 +23,7 @@
                 <span class="titleWorking">Application</span>
                 <div class="separator"></div>
                 <span>
-                    Chaque création est pensée pour mettre votre projet en valeur, et perfectionnée pour répondre parfaitement à vos attentes.
+                    Chaque création est pensée pour mettre votre projet en valeur, et perfectionner pour répondre parfaitement à vos attentes.
                 </span>
             </div>
             <div>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="sectionLastProjects txtcenter">
-        <span class="title">Mes derniers projets</span>
+        <span class="title">Mes dernières réalisations</span>
 
         <br /><br /><br /><br />
 
@@ -54,7 +54,7 @@
                                 <div>
                                     <a href="/projet/<?php echo $data_galerie['id']; ?>"><?php echo $data_galerie['nom']; ?></a>
                                     <br>
-                                    <span class="uppercase"><?php if ($data_galerie['edition'] != "0") { echo $data_galerie['edition']; } ?></span>
+                                    <span class="uppercase"><?php if ($data_galerie['categorie'] != "0") { echo $data_galerie['categorie']; } ?></span>
                                 </div>
                             </div>
                         </div>

@@ -10,7 +10,7 @@
     function sendMail($destinataire, $titre, $msgHTML) {
         // info altitude - mail qui envoie ce mail + reply
         //$noreply = "juliencolmont59@gmail.com";
-        $noreply = "maxime.radiohaide@gmail.com";
+        $noreply = "contact@juliencolmont.fr";
         $nameFrom = "Julien Colmont Graphiste Freelance";
 
         $mail = $destinataire; // Déclaration de l'adresse de destination.

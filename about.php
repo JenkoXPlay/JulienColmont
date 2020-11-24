@@ -2,26 +2,29 @@
 
     <div class="logoAbout">
         <div class="imgLogo">
-            <img src="./img/logo.svg" width="auto" height="90%" class="logo" />
+            <!-- <img src="./img/logo.svg" width="auto" height="50%" class="logo" /> -->
+            <img src="./img/profil.jpg" width="70%" height="auto" class="logo" />
         </div>
         <div class="descAbout">
             <div>
                 <span>
-                    Je m’appelle Julien Colmont et je suis graphiste freelance. Pour moi, vous êtes unique et vos projets aussi. Que vous soyez un particulier, une entreprise ou une association. Je vous propose de prendre en charge vos projets de communications graphiques.
+                    Julien Colmont, je suis graphiste freelance.<br />
+                    Je vous apporte mes compétences et mon savoir-faire dans la réalisation de vos projets graphique.
                 </span>
                 <br /><br />
                 <span>
-                    Discuter et échanger, pour vous proposer des solutions personnalisées répondant à chacune de vos demandes. Mon statut me permet plus de ﬂexibilité, de réactivité et de disponibilité.
+                    Mon but est de vous apporter des solutions personnalisées en adéquation avec vos besoins, car vous êtes unique et vos projet aussi. Que vous soyez un particulier, une entreprise, une commune ou une association.
                 </span>
                 <br /><br />
                 <span>
-                    Mes maîtres-mots : créativité, curiosité et passion... Alors n'hésitez pas ! Contactez-moi pour que nous parlions de votre projet et pour que ensemble, nous fassions vivre son univers graphique...
+                    Mes maîtres-mots : créativité, curiosité et passions...<br />
+                    Alors n'hésitez pas ! Contactez-moi pour que vos projets deviennent réalité.
                 </span>
             </div>
         </div>
     </div>
 
-    <br /><br /><br /><br />
+    <br /><br />
 
     <div class="about txtcenter">
         <span class="title">Ce que je fais...</span>
