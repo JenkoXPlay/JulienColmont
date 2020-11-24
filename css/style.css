@@ -196,6 +196,7 @@ a:hover {
     padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .logoAbout .descAbout {
     width: 60%;
@@ -207,7 +208,7 @@ a:hover {
 }
 
 .about {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 /* about */
 

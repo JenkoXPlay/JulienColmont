@@ -16,7 +16,7 @@
                                 <div>
                                     <a href="/projet/<?php echo $data_galerie['id']; ?>"><?php echo $data_galerie['nom']; ?></a>
                                     <br>
-                                    <span class="uppercase"><?php if ($data_galerie['edition'] != "0") { echo $data_galerie['edition']; } ?></span>
+                                    <span class="uppercase"><?php if ($data_galerie['categorie'] != "0") { echo $data_galerie['categorie']; } ?></span>
                                 </div>
                             </div>
                         </div>

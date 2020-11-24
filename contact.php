@@ -12,7 +12,7 @@
                 </div>
                 <div class="info">
                     <span class="jaune">Mail</span>
-                    <span class="blanc">juliencolmont59@gmail.com</span>
+                    <span class="blanc">contact@juliencolmont.fr</span>
                 </div>
             </div>
             <div>
