@@ -50,7 +50,7 @@ class Router {
 
 $router = new Router();
 
-$router->setRoutes('/DevStorm/', 'index.php');
+$router->setRoutes('/JulienColmont/', 'index.php');
 $router->setRoutes('/home', 'index.php');
 $router->setRoutes('/portfolio', 'portfolio.php');
 $router->setRoutes('/projet/:id', 'projet.php');

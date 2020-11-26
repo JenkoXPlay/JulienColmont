@@ -137,7 +137,7 @@ a:hover {
 }
 /* logo */
 
-/* titre */
+/* titre et sous titre */
 .title {
     color: #FFAC09;
     font-family: "AllerRg";
@@ -145,8 +145,35 @@ a:hover {
     padding: 10px;
     border: 2px solid #FFAC09;
     font-size: 1.2em;
+    text-transform: uppercase;
 }
-/* titre */
+
+.subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.subtitle .trait {
+    background: #FFAC09;
+    width: 100%;
+    height: 1px;
+    margin-top: 9px;
+    position: absolute;
+    z-index: 99;
+}
+.subtitle span {
+    background: #161110;
+    color: #FFAC09;
+    font-family: "AllerRg";
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0 10 0 10;
+    position: absolute;
+    z-index: 100;
+}
+/* titre et sous titre */
 
 /* working */
 .workingFlex {
@@ -209,6 +236,28 @@ a:hover {
 
 .about {
     margin-bottom: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.about .description {
+    color: #fff;
+    margin-top: 40px;
+}
+.about .discoverShop {
+    width: 100%;
+}
+.about .discoverShop .contentShop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.about .discoverShop .contentShop img {
+    width: 23%;
+    height: auto;
+}
+.about .discoverShop .contentShop img:hover {
+    cursor: pointer;
 }
 /* about */
 

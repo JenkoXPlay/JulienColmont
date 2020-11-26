@@ -27,35 +27,34 @@
     <br /><br />
 
     <div class="about txtcenter">
-        <span class="title">Ce que je fais...</span>
+        <span class="title">Découvrir mon Shop</span>
+        
+        <div class="description">
+            Après plusieurs années de collaboration avec le Betiz Fest et des Projets personnels, je vous propose aujourd'hui de découvrir ou de redécouvrir mes illustrations que vous vous procurer sur différents supports.
+        </div>
 
-        <br /><br /><br /><br />
+        <br /><br />
 
-        <div class="workingFlex">
-            <div>
-                <img src="./img/creativite.svg" />
-                <span class="titleWorking">Créativité</span>
-                <div class="separator"></div>
-                <span>
-                    Je crée des visuels pour tous vos supports de communication : Identité visuelle, édition & print, signalétique et illustartion…
-                </span>
+        <div class="discoverShop">
+            <div class="subtitle">
+                <div class="trait"></div>
+                <span>clique ci-dessous pour découvrir</span>
             </div>
-            <div>
-                <img src="./img/application.svg" />
-                <span class="titleWorking">Application</span>
-                <div class="separator"></div>
-                <span>
-                    Chaque création est pensée pour mettre votre projet en valeur, et perfectionnée pour répondre parfaitement à vos attentes.
-                </span>
+
+            <div class="contentShop">
+                <img src="./img/shop1.jpg" id="openShop" />
+                <img src="./img/shop2.jpg" id="openShop" />
+                <img src="./img/shop3.jpg" id="openShop" />
+                <img src="./img/shop4.jpg" id="openShop" />
             </div>
-            <div>
-                <img src="./img/communication.svg" />
-                <span class="titleWorking">Communication</span>
-                <div class="separator"></div>
-                <span>
-                    Besoin d’une communication visuelle efficace pour votre entreprise ou un projet personnel ? Discutons-en afin de bien cerner vos besoins.
-                </span>
-            </div>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#openShop").click(function() {
+                        window.open('https://shop.spreadshirt.fr/julien-colmont', '_blank');
+                    });
+                });
+            </script>
         </div>
 
         <div class="width_100 margin_top_100">
