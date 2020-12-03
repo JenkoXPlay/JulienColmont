@@ -249,12 +249,14 @@ a:hover {
 .about .discoverShop .contentShop {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 .about .discoverShop .contentShop img {
-    width: 23%;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    margin: 0 15px 15px 15px;
 }
 .about .discoverShop .contentShop img:hover {
     cursor: pointer;
